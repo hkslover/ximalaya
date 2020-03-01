@@ -59,7 +59,7 @@ def getPlayerUrl(title,trackId):
 def download(name,url):
     headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36'}
     path = os.getcwd()
-    file_name = path + '\\' + name + '.mp3'
+    file_name = path + '\\' + name + '.m4a'
     f = requests.get(url,headers = headers)
     with open(file_name,'wb') as code:
         code.write(f.content)
