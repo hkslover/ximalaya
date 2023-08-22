@@ -1,5 +1,6 @@
 # ximalaya
 喜马拉雅专辑批量下载
+界面使用https://www.pytk.net/tkinter-helper/布局生成
 
 **xm-sign生成算法**
 
